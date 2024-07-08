@@ -16,6 +16,15 @@
 		0E3C5BFF2C3777AB00C7256A /* SweetShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C5BFE2C3777AB00C7256A /* SweetShopTests.swift */; };
 		0E3C5C092C3777AB00C7256A /* SweetShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C5C082C3777AB00C7256A /* SweetShopUITests.swift */; };
 		0E3C5C0B2C3777AB00C7256A /* SweetShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C5C0A2C3777AB00C7256A /* SweetShopUITestsLaunchTests.swift */; };
+		0E3C5C1F2C37833B00C7256A /* cinnamon_sugar_donut.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C5C172C37833B00C7256A /* cinnamon_sugar_donut.png */; };
+		0E3C5C202C37833B00C7256A /* jelly_filled_donut.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C5C182C37833B00C7256A /* jelly_filled_donut.png */; };
+		0E3C5C212C37833B00C7256A /* maple_glaze_donut.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C5C192C37833B00C7256A /* maple_glaze_donut.png */; };
+		0E3C5C222C37833B00C7256A /* powdered_sugar_donut.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C5C1A2C37833B00C7256A /* powdered_sugar_donut.png */; };
+		0E3C5C232C37833B00C7256A /* strawberry_frosting_donut.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C5C1B2C37833B00C7256A /* strawberry_frosting_donut.png */; };
+		0E3C5C242C37833B00C7256A /* strawberryJam.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C5C1C2C37833B00C7256A /* strawberryJam.png */; };
+		0E3C5C252C37833B00C7256A /* vanilla_frosting_donut.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C5C1D2C37833B00C7256A /* vanilla_frosting_donut.png */; };
+		0E3C5C272C37846A00C7256A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C5C262C37846A00C7256A /* Model.swift */; };
+		0E3C5C292C37857600C7256A /* PickerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C5C282C37857600C7256A /* PickerRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		0E3C5C042C3777AB00C7256A /* SweetShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3C5C082C3777AB00C7256A /* SweetShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetShopUITests.swift; sourceTree = "<group>"; };
 		0E3C5C0A2C3777AB00C7256A /* SweetShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E3C5C172C37833B00C7256A /* cinnamon_sugar_donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cinnamon_sugar_donut.png; sourceTree = "<group>"; };
+		0E3C5C182C37833B00C7256A /* jelly_filled_donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jelly_filled_donut.png; sourceTree = "<group>"; };
+		0E3C5C192C37833B00C7256A /* maple_glaze_donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maple_glaze_donut.png; sourceTree = "<group>"; };
+		0E3C5C1A2C37833B00C7256A /* powdered_sugar_donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powdered_sugar_donut.png; sourceTree = "<group>"; };
+		0E3C5C1B2C37833B00C7256A /* strawberry_frosting_donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry_frosting_donut.png; sourceTree = "<group>"; };
+		0E3C5C1C2C37833B00C7256A /* strawberryJam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberryJam.png; sourceTree = "<group>"; };
+		0E3C5C1D2C37833B00C7256A /* vanilla_frosting_donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanilla_frosting_donut.png; sourceTree = "<group>"; };
+		0E3C5C262C37846A00C7256A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = ../../../../Downloads/Model.swift; sourceTree = "<group>"; };
+		0E3C5C282C37857600C7256A /* PickerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +117,13 @@
 		0E3C5BE62C3777A900C7256A /* SweetShop */ = {
 			isa = PBXGroup;
 			children = (
+				0E3C5C262C37846A00C7256A /* Model.swift */,
+				0E3C5C1E2C37833B00C7256A /* Images */,
 				0E3C5BE72C3777A900C7256A /* AppDelegate.swift */,
 				0E3C5BE92C3777A900C7256A /* SceneDelegate.swift */,
 				0E3C5BEB2C3777A900C7256A /* ViewController.swift */,
 				0E3C5BED2C3777A900C7256A /* Main.storyboard */,
+				0E3C5C282C37857600C7256A /* PickerRowView.swift */,
 				0E3C5BF02C3777AB00C7256A /* Assets.xcassets */,
 				0E3C5BF22C3777AB00C7256A /* LaunchScreen.storyboard */,
 				0E3C5BF52C3777AB00C7256A /* Info.plist */,
@@ -125,6 +146,21 @@
 				0E3C5C0A2C3777AB00C7256A /* SweetShopUITestsLaunchTests.swift */,
 			);
 			path = SweetShopUITests;
+			sourceTree = "<group>";
+		};
+		0E3C5C1E2C37833B00C7256A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E3C5C172C37833B00C7256A /* cinnamon_sugar_donut.png */,
+				0E3C5C182C37833B00C7256A /* jelly_filled_donut.png */,
+				0E3C5C192C37833B00C7256A /* maple_glaze_donut.png */,
+				0E3C5C1A2C37833B00C7256A /* powdered_sugar_donut.png */,
+				0E3C5C1B2C37833B00C7256A /* strawberry_frosting_donut.png */,
+				0E3C5C1C2C37833B00C7256A /* strawberryJam.png */,
+				0E3C5C1D2C37833B00C7256A /* vanilla_frosting_donut.png */,
+			);
+			name = Images;
+			path = ../../../../Downloads/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +267,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3C5C1F2C37833B00C7256A /* cinnamon_sugar_donut.png in Resources */,
+				0E3C5C232C37833B00C7256A /* strawberry_frosting_donut.png in Resources */,
+				0E3C5C222C37833B00C7256A /* powdered_sugar_donut.png in Resources */,
+				0E3C5C242C37833B00C7256A /* strawberryJam.png in Resources */,
+				0E3C5C252C37833B00C7256A /* vanilla_frosting_donut.png in Resources */,
 				0E3C5BF12C3777AB00C7256A /* Assets.xcassets in Resources */,
+				0E3C5C212C37833B00C7256A /* maple_glaze_donut.png in Resources */,
+				0E3C5C202C37833B00C7256A /* jelly_filled_donut.png in Resources */,
 				0E3C5BF42C3777AB00C7256A /* Base in Resources */,
 				0E3C5BEF2C3777A900C7256A /* Base in Resources */,
 			);
@@ -259,8 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E3C5BEC2C3777A900C7256A /* ViewController.swift in Sources */,
+				0E3C5C292C37857600C7256A /* PickerRowView.swift in Sources */,
 				0E3C5BE82C3777A900C7256A /* AppDelegate.swift in Sources */,
 				0E3C5BEA2C3777A900C7256A /* SceneDelegate.swift in Sources */,
+				0E3C5C272C37846A00C7256A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
